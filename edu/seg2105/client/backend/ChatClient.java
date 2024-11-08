@@ -81,6 +81,10 @@ public class ChatClient extends AbstractClient
     }
   }
   
+  protected void connectionClosed() {
+	  
+  }
+  
   /**
    * This method terminates the client.
    */
